@@ -18,9 +18,4 @@ export class DynamicLocators {
         const clickImage = this.imageToSelect.nth(number - 1)
         await clickImage.click();
     }
-
-    // // Method to click on the image to be selected based on the index
-    // async clickOnImageToBeSelected(number) {
-
-    // }
 }
