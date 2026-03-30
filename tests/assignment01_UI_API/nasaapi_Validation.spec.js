@@ -1,8 +1,5 @@
 import { test, expect } from '@playwright/test';
-// import { LandingPage } from '../../pages/Assignment01/nasa_landingPage';
-// import { DynamicLocators } from '../../pages/Assignment01/dynamicLocators';
 import { apiHelper } from '../../Helper/apiHelper';
-import { request } from 'node:http';
 
 // Test case to validate NASA Images REST API - Search and fetch asset details
 test('Scenario_01 - API - Search and fetch asset details (NASA Images REST API)', async ({ request }) => {
