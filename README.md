@@ -63,3 +63,8 @@ use: {
   video: 'retain-on-failure',
   trace: 'retain-on-failure'
 }
+
+##Flaky issues
+ - Used assert built-in auto-waiting mechanisms. 
+ - Used reliable locators such as getByRole, getByText and Xpath.
+ - Analyzed failures using retries, tracing, screenshots and video recording options  
